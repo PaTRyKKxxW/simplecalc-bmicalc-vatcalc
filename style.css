@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+header{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+main{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 10px;
+}
+.buttons input{
+    height: 60px;
+    width: 70px;
+    margin: 5px 3px;
+}
+#wypisz{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+}
+.number{
+    background-color: #88a2bc;
+}
+.points{
+    background-color: #4f6a8f;
+}

@@ -8,10 +8,32 @@
 </head>
 <body>
     <header>
-        
+        <h1>Calculator</h1>
+        <section class="window">
+            <p id="wypisz"></p>
+        </section>
     </header>
     <main>
-
+        <form class="buttons">
+            <input type="button" value="%" class="points" id="%" onclick="proc()">
+            <input type="button" value="1" class="number" id="1" onclick="results(this.value)">
+            <input type="button" value="2" class="number" id="2" onclick="results(this.value)">
+            <input type="button" value="3" class="number" id="3" onclick="results(this.value)">
+            <input type="button" value="/" class="points" id="/" onclick="dzielenie()">
+            <input type="button" value="√" class="points" id="pier" onclick="pier()">
+            <input type="button" value="4" class="number" id="4" onclick="results(this.value)">
+            <input type="button" value="5" class="number" id="5" onclick="results(this.value)">
+            <input type="button" value="6" class="number" id="6" onclick="results(this.value)">
+            <input type="button" value="x" class="points" id="*" onclick="mnozenie()">
+            <input type="button" value="x²" class="points" id="x2" onclick="potega()">
+            <input type="button" value="7" class="number" id="7" onclick="results(this.value)">
+            <input type="button" value="8" class="number" id="8" onclick="results(this.value)">
+            <input type="button" value="9" class="number" id="9" onclick="results(this.value)">
+            <input type="button" value="-" class="points" id="-" onclick="odejmowanie()">
+            <input type="button" value="+" class="points" id="+" onclick="dodawanie()">
+            <input type="button" value="=" class="points" id="=" onclick="rowna()">
+        </form>
     </main>
 </body>
+<script src="calc.js"></script>
 </html>
