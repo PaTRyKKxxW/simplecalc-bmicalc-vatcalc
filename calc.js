@@ -36,6 +36,26 @@ function proc() {
     let result = nowtext / 100;
     write.innerHTML = result; 
 }
+
+
+
+let history = [];
+
+
+function addToHistory(expression, result) {
+    history.push({ expression: expression, result: result });
+}
+function displayHistory() {
+    let historyContainer = document.getElementById("history");
+    historyContainer.innerHTML = "";
+    history.forEach((item, index) => {
+        let historyItem = document.createElement("p");
+        historyItem.textContent = `${item.expression} = ${item.result}`;
+        historyContainer.appendChild(historyItem);
+    });
+}
+
+
 function rowna() {
     let write = document.getElementById("wypisz");
     let nowtext = write.innerHTML;
@@ -45,5 +65,7 @@ function rowna() {
     }
     let result = eval(nowtext);
     write.innerHTML = result; 
+    addToHistory(nowtext, result);
+    displayHistory();
 }
 
