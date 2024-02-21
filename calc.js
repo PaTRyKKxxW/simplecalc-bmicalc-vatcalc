@@ -4,3 +4,7 @@ function results(value){
    let newtext = nowtext + value;
    write.innerHTML = newtext;
 }
+function cleartext(){
+    let write = document.getElementById("wypisz");
+    write.innerHTML = "";
+}
