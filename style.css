@@ -3,15 +3,6 @@ body{
     margin: 0 auto;
     background-color: lightcyan;
 }
-header{
-    height: 50px;
-    width: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    text-align: right;
-    font-size: 25px;
-    display: block;
-}
 main{
     width: 400px;
     height: 300px;
@@ -25,6 +16,15 @@ h1{
     font-size: 20px;
     padding: 0;
     margin: 0;
+}
+.write{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 25px;
+    display: block;
 }
 .buttons input{
     height: 60px;
