@@ -48,6 +48,14 @@ header{
 .number{
     background-color: #88a2bc;
 }
+.number:hover{
+    background-color: black;
+    color: #88a2bc;
+}
 .points{
     background-color: #4f6a8f;
+}
+.points:hover{
+    background-color: #202e32;
+    color: #4f6a8f;
 }
