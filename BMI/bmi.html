@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a BMI calculator to check your weight "/>
+    <meta name="keywords" content="BMI, width, height"/>
+    <meta name="author" content="Patryk Wiktor"/>
     <title>Document</title>
     <link rel="stylesheet" href="stylebmi.css">
 </head>
@@ -27,6 +30,11 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <p id="determination"></p>
+    </section>
+
     <button id="btn" value="CALCULATE">OBLICZ</button>
 
     <section class="description">
@@ -39,13 +47,17 @@
             Granice BMI są zazwyczaj używane w celu określenia, czy dana osoba ma niedowagę, wagę prawidłową, 
             nadwagę czy otyłość. Oto standardowe granice BMI:  <br>
             
-            <b>1. Niedowaga:</b> BMI poniżej 18.5
+            <b>1. Niedowaga:</b> BMI poniżej 18.50
             <br>
-            <b>2. Waga prawidłowa: </b> BMI od 18.5 do 24.9
+            <b>2. Waga prawidłowa: </b> BMI od 18.50 do 24.99
             <br>
-            <b>3. Nadwaga: </b> BMI od 25.0 do 29.9
+            <b>3. Nadwaga: </b> BMI od 25.0 do 29.99
             <br>
-            <b>Otyłość: </b> BMI 30.0 i powyżej
+            <b>I stopień otyłości: </b> BMI od 30.0 do 34.99
+            <br>
+            <b>II stopień otyłości: </b> BMI od 35.0 do 39.99
+            <br>
+            <b>Otyłość skrajna: </b> BMI powyżej 40.0
             <br>
             Należy jednak pamiętać, że BMI jest narzędziem szacunkowym i nie uwzględnia wszystkich czynników, 
             takich jak budowa ciała, wiek, płeć, poziom aktywności fizycznej itp. Zaleca się konsultację z lekarzem
