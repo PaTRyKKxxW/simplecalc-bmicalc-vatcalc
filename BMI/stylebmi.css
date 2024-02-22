@@ -62,8 +62,9 @@ main button{
 }
 .progress{
     height: 40px;
+    background-color: #4f6a8f;
     width: 0;
-    background-color: red;
+    transition: 1s;
 
 }
 .progress h2{
