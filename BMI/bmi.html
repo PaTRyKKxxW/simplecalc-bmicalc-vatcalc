@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylebmi.css">
 </head>
 <body>
-    
+    <header>
+        <div><a href="../simplecalc.html">Kalkulator prosty</a></div>
+        <div><h1>Kalkulator BMI</h1></div>
+        <div><a href="../VAT/vat.html">Kalkulator VAT</a></div>
+    </header>
+    <main>
+    <section class="container">
+        <div class="data">
+            Masa ciała [kg]: <br> <input type="number" name="weight" id="weight">
+        </div>
+
+        <div class="data">
+            Wzrost [cm]: <br> <input type="number" name="height" id="height">
+        </div>
+        <div class="progressbar">
+            <div class="progress">
+                <h2>0,00</h2>
+            </div>
+        </div>
+    </section>
+    <button id="btn" value="CALCULATE">OBLICZ</button>
+
+    <section class="description">
+        <div id="title">
+            <h2>Granice i opis BMI</h2>
+            <p>.....</p>
+        </div>
+        <p id="playing">
+            <b>BMI (Body Mass Index - wskaźnik masy ciała)</b> jest narzędziem używanym do oceny masy ciała osoby dorosłej. 
+            Granice BMI są zazwyczaj używane w celu określenia, czy dana osoba ma niedowagę, wagę prawidłową, 
+            nadwagę czy otyłość. Oto standardowe granice BMI:  <br>
+            
+            <b>1. Niedowaga:</b> BMI poniżej 18.5
+            <br>
+            <b>2. Waga prawidłowa: </b> BMI od 18.5 do 24.9
+            <br>
+            <b>3. Nadwaga: </b> BMI od 25.0 do 29.9
+            <br>
+            <b>Otyłość: </b> BMI 30.0 i powyżej
+            <br>
+            Należy jednak pamiętać, że BMI jest narzędziem szacunkowym i nie uwzględnia wszystkich czynników, 
+            takich jak budowa ciała, wiek, płeć, poziom aktywności fizycznej itp. Zaleca się konsultację z lekarzem
+             lub specjalistą ds. zdrowia, aby uzyskać kompleksową ocenę stanu zdrowia na podstawie masy ciała i innych czynników.
+        </p>
+    </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Kalkulator BMI. Wszelkie prawa zastrzeżone.</p>
+        <p>Projekt i wykonanie: Patryk Wiktor</p>
+    </footer> 
 </body>
 </html>

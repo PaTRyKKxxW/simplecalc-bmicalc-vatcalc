@@ -1,0 +1,85 @@
+*{
+    font-family: Arial;
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+header{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 60px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #88a2bc;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 50px;
+}
+header a:visited{
+    color: #4f6a8f;
+}
+header a:hover{
+    color: #88a2bc;
+}
+main button{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    padding: 5px;
+    margin: 0 50px;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    margin: 0 50px 50px 50px;
+}
+.container input{
+    height: 40px;
+    width: 350px;
+}
+.progressbar{
+    height: 40px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.progress{
+    height: 40px;
+    width: 0;
+    background-color: red;
+
+}
+.progress h2{
+    display: inline;
+}
+#title{
+    text-align: center;
+}
+#title h1{
+    font-family: Verdana;
+}
+#title p{
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+}
+#playing{
+    text-align: center;
+}
