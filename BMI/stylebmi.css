@@ -1,106 +1,104 @@
-*{
-    font-family: Arial;
+* {
+  font-family: Arial;
 }
-body{
-    padding: 0;
-    margin: 0 auto;
-    background-color: lightcyan;
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: lightcyan;
 }
-header{
-    height: auto;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
+header {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-header h1{
-    font-size: 60px;
+header h1 {
+  font-size: 60px;
 }
-footer{
-    width: 100%;
-    height: auto;
-    background-color: #88a2bc;
-    text-align: center;
-    float: inline-end;
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #88a2bc;
+  text-align: center;
+  float: inline-end;
 }
-header a{
-    text-decoration: none;
-    margin: 50px;
-    transition: 1s;
+header a {
+  text-decoration: none;
+  margin: 50px;
+  transition: 1s;
 }
-header a:visited{
-    color: #4f6a8f;
+header a:visited {
+  color: #4f6a8f;
 }
-header a:hover{
-    color: #88a2bc;
-    text-decoration: underline;
+header a:hover {
+  color: #88a2bc;
+  text-decoration: underline;
 }
-main button{
-    height: 50px;
-    width: 100px;
-    background-color: red;
-    padding: 5px;
-    margin: 0 50px;
-    color: white;
-    font-weight: bold;
+main button {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  padding: 5px;
+  margin: 0 50px;
+  color: white;
+  font-weight: bold;
 }
-main button:hover{
-    color: red;
-    background-color: white;
+main button:hover {
+  color: red;
+  background-color: white;
 }
-.container{
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.container {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.data{
-    margin: 0 50px 50px 50px;
+.data {
+  margin: 0 50px 50px 50px;
 }
-.container input{
-    height: 40px;
-    width: 300px;
+.container input {
+  height: 40px;
+  width: 300px;
 }
-.progressbar{
-    height: 40px;
-    width: 300px;
-    border: 1px solid black;
-    margin: 20px 50px 0 0;
-
+.progressbar {
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 20px 50px 0 0;
 }
-.progress{
-    height: 40px;
-    /* background-color: #4f6a8f; */
-    background: linear-gradient(to right, #88a2bc, #4f6a8f);
-    width: 0;
-    transition: 1s;
-
+.progress {
+  height: 40px;
+  /* background-color: #4f6a8f; */
+  background: linear-gradient(to right, #88a2bc, #4f6a8f);
+  width: 0;
+  transition: 1s;
 }
-.progress h2{
-    display: inline;
+.progress h2 {
+  display: inline;
 }
-#title{
-    text-align: center;
+#title {
+  text-align: center;
 }
-#title h1{
-    font-family: Verdana;
+#title h1 {
+  font-family: Verdana;
 }
-#title p{
-    font-weight: bold;
-    font-size: 30px;
+#title p {
+  font-weight: bold;
+  font-size: 30px;
 }
-#playing{
-    text-align: center;
+#playing {
+  text-align: center;
 }
-#determination{
-    text-align: right;
-    margin-right: 50px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #4f6a8f;
+#determination {
+  text-align: right;
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #4f6a8f;
 }
-.description{
-    width: 80%;
-    margin: 0 auto;
+.description {
+  width: 80%;
+  margin: 0 auto;
 }

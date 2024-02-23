@@ -1,94 +1,94 @@
-*{
-    font-family: Arial;
+* {
+  font-family: Arial;
 }
-body{
-    padding: 0;
-    margin: 0 auto;
-    background-color: lightcyan;
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: lightcyan;
 }
-main{
-    width: 400px;
-    height: auto;
-    border: 1px solid black;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+main {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
-h1{
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
+h1 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
 }
-header{
-    height: auto;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
+header {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-header h1{
-    font-size: 60px;
+header h1 {
+  font-size: 60px;
 }
-footer{
-    width: 100%;
-    height: auto;
-    background-color: #88a2bc;
-    text-align: center;
-    float: inline-end;
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #88a2bc;
+  text-align: center;
+  float: inline-end;
 }
-header a{
-    text-decoration: none;
-    transition: 0.5s;
-    margin: 50px;
-    color: #4f6a8f;
+header a {
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 50px;
+  color: #4f6a8f;
 }
-header a:visited{
-    color: #4f6a8f;
+header a:visited {
+  color: #4f6a8f;
 }
-header a:hover{
-    color: #88a2bc;
-    text-decoration: underline;
+header a:hover {
+  color: #88a2bc;
+  text-decoration: underline;
 }
-#history{
-    text-align: center;
-    margin: 0 auto;
-    height: auto;
-    width: 300px;
-    border: 1px solid black;
+#history {
+  text-align: center;
+  margin: 0 auto;
+  height: auto;
+  width: 300px;
+  border: 1px solid black;
 }
-.write{
-    height: 50px;
-    width: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
-    text-align: right;
-    font-size: 25px;
-    display: block;
+.write {
+  height: 50px;
+  width: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 25px;
+  display: block;
 }
-.buttons input{
-    height: 60px;
-    width: 70px;
-    margin: 5px 3px;
+.buttons input {
+  height: 60px;
+  width: 70px;
+  margin: 5px 3px;
 }
-.number{
-    background-color: #88a2bc;
-    transition: 0.5s;
+.number {
+  background-color: #88a2bc;
+  transition: 0.5s;
 }
-.number:hover{
-    background-color: black;
-    color: #88a2bc;
+.number:hover {
+  background-color: black;
+  color: #88a2bc;
 }
-.points{
-    background-color: #4f6a8f;
-    transition: 0.5s;
+.points {
+  background-color: #4f6a8f;
+  transition: 0.5s;
 }
-.points:hover{
-    background-color: #202e32;
-    color: #4f6a8f;
+.points:hover {
+  background-color: #202e32;
+  color: #4f6a8f;
 }
-.link{
-    font-size: 15px;
-    float: left;
+.link {
+  font-size: 15px;
+  float: left;
 }

@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="a BMI calculator to check your weight "/>
-    <meta name="keywords" content="BMI, width, height"/>
-    <meta name="author" content="Patryk Wiktor"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="a BMI calculator to check your weight " />
+    <meta name="keywords" content="BMI, width, height" />
+    <meta name="author" content="Patryk Wiktor" />
     <title>Kalkulator BMI</title>
-    <link rel="stylesheet" href="stylebmi.css">
-</head>
-<body>
+    <link rel="stylesheet" href="stylebmi.css" />
+  </head>
+  <body>
     <header>
-        <div><a href="../CALCULATOR/simplecalc.html">Kalkulator prosty</a></div>
-        <div><h1>Kalkulator BMI</h1></div>
-        <div><a href="../VAT/vat.html">Kalkulator VAT</a></div>
+      <div><a href="../CALCULATOR/simplecalc.html">Kalkulator prosty</a></div>
+      <div><h1>Kalkulator BMI</h1></div>
+      <div><a href="../VAT/vat.html">Kalkulator VAT</a></div>
     </header>
     <main>
-    <section class="container">
+      <section class="container">
         <div class="data">
-            Masa ciała [kg]: <br> <input type="number" name="width" id="width">
+          Masa ciała [kg]: <br />
+          <input type="number" name="width" id="width" />
         </div>
 
         <div class="data">
-            Wzrost [cm]: <br> <input type="number" name="height" id="height">
+          Wzrost [cm]: <br />
+          <input type="number" name="height" id="height" />
         </div>
         <div class="progressbar">
-            <div class="progress">
-                <h2 id="write">0,00</h2>
-            </div>
+          <div class="progress">
+            <h2 id="write">0,00</h2>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section>
+      <section>
         <p id="determination"></p>
-    </section>
+      </section>
 
-    <button id="btn" value="CALCULATE">OBLICZ</button>
+      <button id="btn" value="CALCULATE">OBLICZ</button>
 
-    <section class="description">
+      <section class="description">
         <div id="title">
-            <h2>Granice i opis BMI</h2>
-            <p>.....</p>
+          <h2>Granice i opis BMI</h2>
+          <p>.....</p>
         </div>
         <p id="playing">
-            <b>BMI (Body Mass Index - wskaźnik masy ciała)</b> jest narzędziem używanym do oceny masy ciała osoby dorosłej. 
-            Granice BMI są zazwyczaj używane w celu określenia, czy dana osoba ma niedowagę, wagę prawidłową, 
-            nadwagę czy otyłość. Oto standardowe granice BMI:  <br>
-            
-            <b>1. Niedowaga:</b> BMI poniżej 18.50
-            <br>
-            <b>2. Waga prawidłowa: </b> BMI od 18.50 do 24.99
-            <br>
-            <b>3. Nadwaga: </b> BMI od 25.0 do 29.99
-            <br>
-            <b>I stopień otyłości: </b> BMI od 30.0 do 34.99
-            <br>
-            <b>II stopień otyłości: </b> BMI od 35.0 do 39.99
-            <br>
-            <b>Otyłość skrajna: </b> BMI powyżej 40.0
-            <br>
-            Należy jednak pamiętać, że BMI jest narzędziem szacunkowym i nie uwzględnia wszystkich czynników, 
-            takich jak budowa ciała, wiek, płeć, poziom aktywności fizycznej itp. Zaleca się konsultację z lekarzem
-             lub specjalistą ds. zdrowia, aby uzyskać kompleksową ocenę stanu zdrowia na podstawie masy ciała i innych czynników.
-        </p>
-    </section>
+          <b>BMI (Body Mass Index - wskaźnik masy ciała)</b> jest narzędziem
+          używanym do oceny masy ciała osoby dorosłej. Granice BMI są zazwyczaj
+          używane w celu określenia, czy dana osoba ma niedowagę, wagę
+          prawidłową, nadwagę czy otyłość. Oto standardowe granice BMI: <br />
 
+          <b>1. Niedowaga:</b> BMI poniżej 18.50
+          <br />
+          <b>2. Waga prawidłowa: </b> BMI od 18.50 do 24.99
+          <br />
+          <b>3. Nadwaga: </b> BMI od 25.0 do 29.99
+          <br />
+          <b>I stopień otyłości: </b> BMI od 30.0 do 34.99
+          <br />
+          <b>II stopień otyłości: </b> BMI od 35.0 do 39.99
+          <br />
+          <b>Otyłość skrajna: </b> BMI powyżej 40.0
+          <br />
+          Należy jednak pamiętać, że BMI jest narzędziem szacunkowym i nie
+          uwzględnia wszystkich czynników, takich jak budowa ciała, wiek, płeć,
+          poziom aktywności fizycznej itp. Zaleca się konsultację z lekarzem lub
+          specjalistą ds. zdrowia, aby uzyskać kompleksową ocenę stanu zdrowia
+          na podstawie masy ciała i innych czynników.
+        </p>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2024 Kalkulator BMI. Wszelkie prawa zastrzeżone.</p>
-        <p>Projekt i wykonanie: Patryk Wiktor</p>
-    </footer> 
-</body>
-<script src="bmi.js"></script>
+      <p>&copy; 2024 Kalkulator BMI. Wszelkie prawa zastrzeżone.</p>
+      <p>Projekt i wykonanie: Patryk Wiktor</p>
+    </footer>
+  </body>
+  <script src="bmi.js"></script>
 </html>
