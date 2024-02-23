@@ -1,101 +1,100 @@
 * {
-    font-family: Arial;
-  }
-  body {
-    padding: 0;
-    margin: 0 auto;
-    background-color: lightcyan;
-  }
-  header {
-    height: auto;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  header h1 {
-    font-size: 60px;
-  }
-  footer {
-    width: 100%;
-    height: auto;
-    background-color: #88a2bc;
-    text-align: center;
-    float: inline-end;
-  }
-  span{
-    margin: 0 0 0 40px;
-  }
-  header a {
-    text-decoration: none;
-    margin: 50px;
-    transition: 1s;
-  }
-  header a:visited {
-    color: #4f6a8f;
-  }
-  header a:hover {
-    color: #88a2bc;
-    text-decoration: underline;
-  }
-  .calculation{
-    height: 300px;
-    width: 60%;
-    border: 3px solid #708986db ;
-    margin: 0 auto;
-  }
-  .calculation select{
-    height: 12%;
-    width: 25%;
-    margin: 20px 5px 10px 40px;
-    border: 5px solid #4f6a8f;
-    border-radius: 30%;
-  }
-  .calculation button{
-    height: 10%;
-    width:25%;
-    margin: 40px 0 0 40px;
-    border-radius: 10%;
-    border: none;
-    padding: auto;
-    transition: 0.5s;
-  }
-  .calculation button:hover{
-    border: 3px solid #4f6a8f;
-    background-color: #b23b7c;
-  }
-  #amound_field{
-    display: inline;
-  }
-  #field{
-    margin: 0 0 0 10%;
-    height: 10%;
-    width: 25%;
-  }
-  .result{
-    height: 300px;
-    width: 60%;
-    border: 3px solid #708986db ;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .result table{
-    margin: 0 auto;
-  }
-  .result td{
-    border: 1px solid black;
-    height: 10%;
-  }
-  #td1{
-    width: 30%;
-  }
-  #td1:hover{
-    background-color: #4f6a8f;
-  }
-  #tdnetto:hover,
-  #tdvat:hover,
-  #tdbrutto:hover{
-    background-color: #88a2bc;
-  }
-
+  font-family: Arial;
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: lightcyan;
+}
+header {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 60px;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #88a2bc;
+  text-align: center;
+  float: inline-end;
+}
+span {
+  margin: 0 0 0 40px;
+}
+header a {
+  text-decoration: none;
+  margin: 50px;
+  transition: 1s;
+}
+header a:visited {
+  color: #4f6a8f;
+}
+header a:hover {
+  color: #88a2bc;
+  text-decoration: underline;
+}
+.calculation {
+  height: 300px;
+  width: 60%;
+  border: 3px solid #708986db;
+  margin: 0 auto;
+}
+.calculation select {
+  height: 12%;
+  width: 25%;
+  margin: 20px 5px 10px 40px;
+  border: 5px solid #4f6a8f;
+  border-radius: 30%;
+}
+.calculation button {
+  height: 10%;
+  width: 25%;
+  margin: 40px 0 0 40px;
+  border-radius: 10%;
+  border: none;
+  padding: auto;
+  transition: 0.5s;
+}
+.calculation button:hover {
+  border: 3px solid #4f6a8f;
+  background-color: #b23b7c;
+}
+#amound_field {
+  display: inline;
+}
+#field {
+  margin: 0 0 0 10%;
+  height: 10%;
+  width: 25%;
+}
+.result {
+  height: 300px;
+  width: 60%;
+  border: 3px solid #708986db;
+  margin: 0 auto;
+  text-align: center;
+}
+.result table {
+  margin: 0 auto;
+}
+.result td {
+  border: 1px solid black;
+  height: 10%;
+}
+#td1 {
+  width: 30%;
+}
+#td1:hover {
+  background-color: #4f6a8f;
+}
+#tdnetto:hover,
+#tdvat:hover,
+#tdbrutto:hover {
+  background-color: #88a2bc;
+}
