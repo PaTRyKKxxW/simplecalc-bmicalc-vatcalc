@@ -45,6 +45,10 @@ main button{
     color: white;
     font-weight: bold;
 }
+main button:hover{
+    color: red;
+    background-color: white;
+}
 .container{
     width: auto;
     display: flex;
