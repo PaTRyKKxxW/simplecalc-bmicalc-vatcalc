@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="a VAT calculator " />
+    <meta name="keywords" content="VAT, %, bank" />
+    <meta name="author" content="Patryk Wiktor" />
+    <title>Kalkulator VAT</title>
+    <link rel="stylesheet" href="stylevat.css" />
+  </head>
+  <body>
+    <header>
+      <div><a href="../CALCULATOR/simplecalc.html">Kalkulator prosty</a></div>
+      <div><h1>Kalkulator VAT brutto/netto</h1></div>
+      <div><a href="../BMI/bmi.html">Kalkulator BMI</a></div>
+    </header>
+    <main>
+      <section class="calculation">
+        <span>Kwota:</span> <br />
+        <select name="sum" id="sum">
+          <option value="netto">netto</option>
+          <option value="brutto">brutto</option>
+        </select>
+
+        <div id="amound_field">
+          <input
+            type="number"
+            name="field"
+            id="field"
+            placeholder="Podaj kwote"
+          />
+        </div>
+        <br />
+        <span>Stawka VAT:</span> <br />
+        <select name="VAT" id="VAT">
+          <option value="23">23%</option>
+          <option value="8">8%</option>
+          <option value="5">5%</option>
+        </select>
+        <br />
+        <button id="btn">OBLICZ</button>
+      </section>
+
+      <section class="result">
+        <h3>Wynik:</h3>
+        <table>
+          <tr>
+            <td id="td1">Kwota netto</td>
+            <td id="tdnetto"><p id="pnetto">Wprowadz kwote</p></td>
+          </tr>
+          <tr>
+            <td id="td1">Kwota VAT</td>
+            <td id="tdvat"><p id="pvat">Wprowadz kwote</p></td>
+          </tr>
+          <tr>
+            <td id="td1">Kwota brutto</td>
+            <td id="tdbrutto"><p id="pbrutto">Wprowadz kwote</p></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Kalkulator VAT. Wszelkie prawa zastrzeżone.</p>
+      <p>Projekt i wykonanie: Patryk Wiktor</p>
+    </footer>
+  </body>
+  <script src="vat.js"></script>
+</html>
