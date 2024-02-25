@@ -11,7 +11,7 @@ Każdy z kalkulatorów ma na celu ułatwienie użytkownikom podstawowych oblicze
 
 ## Jak Uruchomić
 1. Sklonuj to repozytorium na swój komputer.
-2. Otwórz wybrany kalkulator poprzez klikniecie pliu `indexnazwakalkulatora.html` w swojej przeglądarce internetowej.
+2. Otwórz wybrany kalkulator poprzez klikniecie pliu 'nazwakalkulatora.html' w swojej przeglądarce internetowej.
 3. Wybierz odpowiedni kalkulator poprzez kliknięcie na odpowiedni przycisk.
 4. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby dokonać obliczeń.
 
